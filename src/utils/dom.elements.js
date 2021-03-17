@@ -1,0 +1,5 @@
+export const calculator = document.querySelector(`.calculator`)
+export const display = calculator.querySelector(`input[name=userInput]`)
+export const calculationPane = calculator.querySelector(`.calculation`)
+export const numberPad = calculator.querySelector(`.buttons-wrapper`)
+export const buttons = numberPad.querySelectorAll(`.calc-button`)
